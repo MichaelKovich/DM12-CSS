@@ -1,0 +1,38 @@
+.nav {
+  position:  fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 5vh;
+  width: 100%;
+}
+
+.nav-item {
+  float: right;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  text-decoration:none;
+}
+
+.content {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 43vh;
+}
+
+p {
+  color: black;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  background-image: url("http://cdn.akamai.steamstatic.com/steam/apps/520720/ss_95687755cdd1355c1017aefee15d14ec769a33fd.1920x1080.jpg?t=1487095349");
+}
+
+.nav, p {
+  font-family: 'Raleway', sans-serif;
+}
